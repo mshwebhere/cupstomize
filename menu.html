@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1450">
+    <title>CUPSTOMIZE</title>
+
+    <!-- Font 페이북 -->
+    <link href="https://webfontworld.github.io/bccard/Paybooc.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/menu.css">
+</head>
+
+<body>
+    <div id="wrap" class="posi_rel">
+        <div id="header" class="mg_auto">
+            <div class="header_shape posi_rel">
+                <h1 id="logo" class="logo_front posi_abs">
+                    <a href="index.html"><img src="./images/logo_text.png" alt="컵스터마이즈 상단 로고"></a>
+                </h1>
+                <h1 id="logo" class="logo_back posi_abs">
+                    <a href="index.html"><img src="./images/logo.png" alt="컵스터마이즈 상단 로고"></a>
+                </h1>
+
+                <!--#logo-->
+
+                <div class="sub_bg posi_abs mg_auto"></div>
+
+                <ul id="gnb" class="font_SD posi_abs">
+                    <li class="posi_rel">
+                        <a href="menu.html">MENU</a>
+                        <ol class="sub posi_abs">
+                            <li><a href="menu.html#menu_sec_new">NEW</a></li>
+                            <li><a href="menu.html#menu_sec_basic">BASIC</a></li>
+                            <li><a href="menu.html#menu_sec_special">SPECIAL</a></li>
+                            <li><a href="menu.html#menu_sec_beverage">BERVERAGE</a></li>
+                        </ol>
+                    </li>
+
+                    <li class="posi_rel">
+                        <a href="custom.html">CUSTOM</a>
+                        <ol class="sub posi_abs">
+                            <li><a href="custom.html">이용 방법</a></li>
+                            <li><a href="custom.html">재료 소개</a></li>
+                        </ol>
+                    </li>
+
+                    <li class="posi_rel">
+                        <a href="brand.html">BRAND</a>
+                        <ol class="sub posi_abs">
+                            <li><a href="brand.html">브랜드 소개</a></li>
+                            <li><a href="brand.html#come_and_see">오시는 길</a></li>
+                        </ol>
+                    </li>
+
+                    <li class="posi_rel">
+                        <a href="todays.html">TODAY’S</a>
+                        <ol class="sub posi_abs">
+                            <li><a href="todays.html">이벤트</a></li>
+                            <li><a href="todays.html">공지사항</a></li>
+                        </ol>
+                    </li>
+                </ul>
+            </div> <!--.header_shape-->
+        </div> <!--#header-->
+
+        <div id="container">
+            <div class="menu_title posi_rel">
+                <div class="menu_title_parts posi_abs">
+                    <img class="menu_side_parts_left posi_abs" src="./images/menu_side_parts.png" alt="메뉴 상단 이미지">
+                    <img class="menu_side_parts_right posi_abs" src="./images/menu_side_parts.png" alt="메뉴 상단 이미지">
+                    <!-- <img class="posi_abs" src="./images/menu_side.png" alt="메뉴 상단 이미지"> -->
+                </div>
+                <div class="menu_title_bg">
+                    <div class="menu_title_inner">
+                        <h2 class="font_SD">MENU</h2>
+                        <p>오직 CUPSTOMIZE에서만 만나볼 수 있는 행복</p>
+                    </div>
+                </div>
+            </div> <!--.menu_title-->
+
+            <div class="menu_section">
+                <ul class="menu_tab mg_auto">
+                    <li class="posi_rel">
+                        <input type="radio" name="menu" class="menu_item" id="menu_all" checked><label
+                            for="menu_all"></label>
+                        <img class="menu_tab_cherry posi_abs" src="./images/0_cherry.png" alt="MENU 체리">
+                    </li>
+
+                    <li class="posi_rel">
+                        <input type="radio" name="menu" class="menu_item" id="menu_new"><label for="menu_new"></label>
+                        <img class="menu_tab_cherry posi_abs" src="./images/0_cherry.png" alt="MENU 체리">
+                    </li>
+
+                    <li class="posi_rel">
+                        <input type="radio" name="menu" class="menu_item" id="menu_basic"><label
+                            for="menu_basic"></label>
+                        <img class="menu_tab_cherry posi_abs" src="./images/0_cherry.png" alt="MENU 체리">
+                    </li>
+
+                    <li class="posi_rel">
+                        <input type="radio" name="menu" class="menu_item" id="menu_special"><label
+                            for="menu_special"></label>
+                        <img class="menu_tab_cherry posi_abs" src="./images/0_cherry.png" alt="MENU 체리">
+                    </li>
+
+                    <li class="posi_rel">
+                        <input type="radio" name="menu" class="menu_item" id="menu_beverage"><label
+                            for="menu_beverage"></label>
+                        <img class="menu_tab_cherry posi_abs" src="./images/0_cherry.png" alt="MENU 체리">
+                    </li>
+                </ul>
+
+                <div id="menu_sec_new" class="menu_bg menu_new menu_div">
+                    <div class="mg_auto">
+                        <img class="menu_name" src="./images/2_new_name.png" alt="MENU NEW">
+                    </div>
+                    <ol class="menu_item posi_rel mg_auto">
+                        <li>
+                            <div>
+                                <img src="./images/menu_new_watermelon.png" alt="신메뉴 워터풀 수박">
+                            </div>
+                            <h3>워터풀 수박</h3>
+                            <h4>4300원</h4>
+                            <button id="waterfulwatermelon" class="posi_rel"><span class="posi_abs">자세히
+                                    보기</span></button>
+                        </li>
+
+                        <li>
+                            <div>
+                                <img src="./images/menu_new_melting.png" alt="신메뉴 멜팅 브라우니">
+                            </div>
+                            <h3>멜팅 브라우니</h3>
+                            <h4>4000원</h4>
+                            <button id="meltingbrownie" class="posi_rel"><span class="posi_abs">자세히 보기</span></button>
+                        </li>
+
+                        <li>
+                            <div>
+                                <img src="./images/menu_new_roche.png" alt="신메뉴 초코 로셰">
+                            </div>
+                            <h3>초코 로셰</h3>
+                            <h4>4300원</h4>
+                            <button id="chocoroche" class="posi_rel"><span class="posi_abs">자세히 보기</span></button>
+                        </li>
+                    </ol>
+                </div>
+
+                <div id="menu_sec_basic" class="menu_wrap menu_basic menu_div">
+                    <div class="mg_auto">
+                        <img class="menu_name" src="./images/3_basic_name.png" alt="MENU BASIC">
+                    </div>
+                    <ol class="menu_item posi_rel mg_auto">
+                        <li>
+                            <div>
+                                <img src="./images/menu_bas_cookieandcream.png" alt="베이직 쿠키 앤 크림">
+                            </div>
+                            <h3>쿠키 앤 크림</h3>
+                            <h4>3800원</h4>
+                            <button id="cookieandcream" class="posi_rel"><span class="posi_abs">자세히 보기</span></button>
+                        </li>
+
+                        <li>
+                            <div>
+                                <img src="./images/menu_bas_honeywaffle.png" alt="베이직 허니 와플">
+                            </div>
+                            <h3>허니 와플</h3>
+                            <h4>3700원</h4>
+                            <button id="honeywaffle" class="posi_rel"><span class="posi_abs">자세히 보기</span></button>
+                        </li>
+
+                        <li>
+                            <div>
+                                <img src="./images/menu_bas_mintchoco.png" alt="베이직 민트 초콜릿">
+                            </div>
+                            <h3>민트 초콜릿</h3>
+                            <h4>3500원</h4>
+                            <button id="mintchocolate" class="posi_rel"><span class="posi_abs">자세히 보기</span></button>
+                        </li>
+                    </ol>
+                </div>
+
+                <div id="menu_sec_special" class="menu_bg menu_special menu_div">
+                    <div class="mg_auto">
+                        <img class="menu_name" src="./images/4_special_name.png" alt="MENU SPECIAL">
+                    </div>
+                    <ol class="menu_item mg_auto">
+                        <li class="posi_rel">
+                            <div>
+                                <img src="./images/menu_spe_custard.png" alt="스페셜 커스터드 베리">
+                            </div>
+                            <h3>커스터드 베리</h3>
+                            <h4>4400원</h4>
+                            <button id="custardberry" class="posi_rel"><span class="posi_abs">자세히 보기</span></button>
+                            <img class="special_icon posi_abs" src="./images/icon_vegan.png" alt="스페셜 비건 아이콘">
+                            <p class="special_hover posi_abs">
+                                <span class="font_SD">VEGAN</span>
+                                <br>본 제품은 비건 제품입니다.
+                            </p>
+                        </li>
+
+                        <li class="posi_rel">
+                            <div>
+                                <img src="./images/menu_spe_cherry.png" alt="스페셜 체리 글라스">
+                            </div>
+                            <h3>체리 글라스</h3>
+                            <h4>4500원</h4>
+                            <button id="cherryglass" class="posi_rel"><span class="posi_abs">자세히 보기</span></button>
+                            <img class="special_icon posi_abs" src="./images/icon_gluten.png" alt="스페셜 글루텐 프리 아이콘">
+                            <p class="special_hover posi_abs">
+                                <span class="font_SD">GLUTEN FREE</span>
+                                <br>본 제품은 글루텐프리 제품입니다.
+                            </p>
+                            <img class="special_icon posi_abs" src="./images/icon_lactose.png" alt="스페셜 락토 프리 아이콘">
+                            <p class="special_hover posi_abs">
+                                <span class="font_SD">LACTOSE FREE</span>
+                                <br>본 제품은 락토프리 제품입니다.
+                            </p>
+                        </li>
+
+                        <li class="posi_rel">
+                            <div>
+                                <img src="./images/menu_spe_yogurt.png" alt="스페셜 딸기 요거트">
+                            </div>
+                            <h3>딸기 요거트</h3>
+                            <h4>4200원</h4>
+                            <button id="strawberryyogurt" class="posi_rel"><span class="posi_abs">자세히 보기</span></button>
+                            <img class="special_icon posi_abs" src="./images/icon_lactose.png" alt="스페셜 락토 프리 아이콘">
+                            <p class="special_hover posi_abs">
+                                <span class="font_SD">LACTOSE FREE</span>
+                                <br>본 제품은 락토프리 제품입니다.
+                            </p>
+                        </li>
+                    </ol>
+                </div>
+
+                <div id="menu_sec_beverage" class="menu_wrap menu_beverage menu_div">
+                    <div class="mg_auto">
+                        <img class="menu_name" src="./images/5_beverage_name.png" alt="MENU BEVERAGE">
+                    </div>
+                    <ol class="menu_item mg_auto">
+                        <li>
+                            <div>
+                                <img src="./images/menu_bev_chocoshake.png" alt="음료 초코 듬뿍 밀크셰이크">
+                            </div>
+                            <h3>초코 듬뿍 밀크셰이크</h3>
+                            <h4>4600원</h4>
+                            <button id="chocomilkshake" class="posi_rel"><span class="posi_abs">자세히 보기</span></button>
+                        </li>
+
+                        <li>
+                            <div>
+                                <img src="./images/menu_bev_americano.png" alt="음료 아이스 아메리카노">
+                            </div>
+                            <h3>아이스 아메리카노</h3>
+                            <h4>3300원</h4>
+                            <button id="iceamericano" class="posi_rel"><span class="posi_abs">자세히 보기</span></button>
+                        </li>
+
+                        <li>
+                            <div>
+                                <img src="./images/menu_bev_matchalatte.png" alt="음료 말차 라떼">
+                            </div>
+                            <h3>말차 라떼</h3>
+                            <h4>3900원</h4>
+                            <button id="matchalatte" class="posi_rel"><span class="posi_abs">자세히 보기</span></button>
+                        </li>
+                    </ol>
+                </div>
+            </div> <!--.menu_section-->
+
+            <div class="height"></div>
+
+            <div class="menu_popup posi_fix">
+                <div class="popup_inner mg_auto">
+                    <div class="popup_cupcake">
+
+                    </div>
+
+                    <div class="popup_bubble posi_rel">
+                        <div class="popup_bubble_inner posi_abs">
+                            <div class="bubble_item_title">
+                                <h1 class="bubble_item_name">item name</h1>
+                                <h5 class="bubble_item_name_en">english name here</h5>
+                            </div>
+                            <h2 class="bubble_item_exp">explanation here</h2>
+                            <ol class="bubble_item_nut">
+                                <li>제품 영양 정보</li>
+                                <li>1회 제공량 1개 &#40;<span class="nut_gram"></span>g&#41;</li>
+                            </ol>
+                            <table class="bubble_item_nuttable">
+                                <tr>
+                                    <th>열량</th>
+                                    <td><span class="nut_kcal"></span>kcal</td>
+                                    <th>당류</th>
+                                    <td><span class="nut_sugar"></span>g</td>
+                                </tr>
+
+                                <tr>
+                                    <th>단백질</th>
+                                    <td><span class="nut_protein"></span>g</td>
+                                    <th>지방</th>
+                                    <td><span class="nut_fat"></span>g</td>
+                                </tr>
+
+                                <tr>
+                                    <th>나트륨</th>
+                                    <td><span class="nut_sodium"></span>g</td>
+                                    <th>포화지방</th>
+                                    <td><span class="nut_satfat"></span>g</td>
+                                </tr>
+                            </table>
+
+                            <ol class="nut_allergy">
+                                <li>알레르기 정보</li>
+                                <li class="nut_allergy_info">test text</li>
+                            </ol>
+
+                        </div>
+                        <h6 class="xbutton posi_abs">ⓧ</h6>
+                    </div>
+                </div> <!--.popup_inner-->
+
+            </div> <!--.menu_popup-->
+        </div> <!--#container-->
+
+        <div id="footer" class="posi_abs">
+            <div class="footer_inner posi_rel mg_auto">
+                <div class="footer_left">
+                    <ul class="footer_terms">
+                        <li><a href="#">회사소개</a></li>
+                        <li><a href="#">채용정보</a></li>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">개인정보처리방침</a></li>
+                        <li><a href="#">매장안내</a></li>
+                    </ul>
+                    <p>부산광역시 중구 중앙대로 26 다원중앙타워 10층
+                        <br>회사명: 컵스터마이즈 대표명: 홍길동
+                        <br>사업자등록번호: 123-45-67890
+                    </p>
+                </div>
+
+                <div class="footer_right">
+                    <ul class="footer_sns">
+                        <li><a href="https://www.facebook.com/" target="_blank"><img src="./images/icon_facebook_f.png"
+                                    alt="CUPSTOMIZE 페이스북 바로가기"></a></li>
+                        <li><a href="https://play.google.com/store/apps/details?id=com.kakao.talk&hl=ko&gl=US&pli=1"
+                                target="_blank"><img src="./images/icon_kakaotalk_f.png" alt="CUPSTOMIZE 카카오톡 바로가기"></a>
+                        </li>
+                        <li><a href="https://www.instagram.com/" target="_blank"><img
+                                    src="./images/icon_instagram_f.png" alt="CUPSTOMIZE 인스타그램 바로가기"></a></li>
+                        <li><a href="https://www.youtube.com/" target="_blank"><img src="./images/icon_youtube_f.png"
+                                    alt="CUPSTOMIZE 유튜브 바로가기"></a></li>
+                    </ul>
+                    <p>COPYRIGHT © CUPSTOMIZE ALL RIGHTS RESERVED.</p>
+                </div>
+
+                <h1 id="footer_logo" class="posi_abs"><a href="index.html"><img src="./images/logo.png"
+                            alt="CUPSTOMIZE 하단 로고"></a></h1>
+            </div> <!--.footer_inner-->
+        </div> <!--#footer-->
+
+        <div id="aside">
+            <div class="aside_top posi_fix">
+                <img src="./images/icon_top.png" alt="맨위로 가기">
+            </div>
+
+            <ul class="aside_contact posi_fix">
+                <li class="aside_contact_main posi_abs">
+                    <img src="./images/icon_cart.png" alt="연락 바로가기">
+                </li>
+                <ul class="aside_contact_inner posi_abs">
+                    <li class="aside_contact_naver">
+                        <a href="https://booking.naver.com/" target="_blank">
+                            <img src="./images/icon_naver.png" alt="네이버 바로가기">
+                        </a>
+                    </li>
+                    <li class="aside_contact_kakao">
+                        <a href="https://play.google.com/store/apps/details?id=com.kakao.talk&hl=ko&gl=US&pli=1"
+                            target="_blank">
+                            <img src="./images/icon_kakaotalk_f.png" alt="카카오톡 바로가기">
+                        </a>
+                    </li>
+                    <li class="aside_contact_call">
+                        <a href="tel:010-1234-5678">
+                            <img src="./images/icon_call_circle.png" alt="전화 바로가기">
+                        </a>
+                    </li>
+                </ul>
+            </ul> <!--.aside_contact-->
+        </div> <!--#aside-->
+    </div> <!--#warp-->
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+
+    <!-- Main JS -->
+    <script src="./js/common.js"></script>
+    <script src="./js/menu.js"></script>
+</body>
+
+</html>

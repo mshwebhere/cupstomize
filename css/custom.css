@@ -1,0 +1,310 @@
+@charset "UTF-8";
+
+/* Color
+    ——Brown: #30130f
+    ——Coral: #e15546
+    ——Orange: #e28564
+    ——Cream: #fef2de
+    ——Cream2: #ffe2ce
+    ——Pink: #f8c3bc
+    ——Cherry: #bf1e2e
+*/
+
+/* #header */
+#header {
+    width: 100%;
+    height: 176px;
+
+    top: 0%;
+    left: 0%;
+    z-index: 999999;
+}
+
+/* body {
+    overflow: hidden !important;
+} */
+
+/* #container */
+
+/* .custom_sec_inner label */
+input[type=radio] {
+    display: none;
+}
+
+label {
+    cursor: pointer;
+}
+
+input[type=radio]+label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 150px;
+    height: 150px;
+
+    border-radius: 50%;
+    background: #fef2de;
+    box-shadow: 20px 20px 0px rgba(191, 30, 46, 0.24);
+}
+
+.custom_option_base input[type=radio]+label {
+    width: 200px;
+    height: 200px;
+}
+
+input[type=radio]+label>img {
+    height: 70%;
+}
+
+input[type=radio]:checked+label {
+    background: #e15546;
+}
+
+.option_name {
+    margin-top: 40px;
+
+    font-size: 26px;
+    font-weight: 700;
+
+    /* stroke */
+    text-shadow: rgb(254, 242, 222) 3px 0px 0px, rgb(254, 242, 222) 2.83487px 0.981584px 0px, rgb(254, 242, 222) 2.35766px 1.85511px 0px, rgb(254, 242, 222) 1.62091px 2.52441px 0px, rgb(254, 242, 222) 0.705713px 2.91581px 0px, rgb(254, 242, 222) -0.287171px 2.98622px 0px, rgb(254, 242, 222) -1.24844px 2.72789px 0px, rgb(254, 242, 222) -2.07227px 2.16926px 0px, rgb(254, 242, 222) -2.66798px 1.37182px 0px, rgb(254, 242, 222) -2.96998px 0.42336px 0px, rgb(254, 242, 222) -2.94502px -0.571704px 0px, rgb(254, 242, 222) -2.59586px -1.50383px 0px, rgb(254, 242, 222) -1.96093px -2.27041px 0px, rgb(254, 242, 222) -1.11013px -2.78704px 0px, rgb(254, 242, 222) -0.137119px -2.99686px 0px, rgb(254, 242, 222) 0.850987px -2.87677px 0px, rgb(254, 242, 222) 1.74541px -2.43999px 0px, rgb(254, 242, 222) 2.44769px -1.73459px 0px, rgb(254, 242, 222) 2.88051px -0.838247px 0px,
+        /* shadow */
+        6px 6px 0px rgba(191, 30, 46, 0.24);
+}
+
+input[type=radio]:checked~label .option_name {
+    color: #fef2de;
+
+    /* stroke */
+    text-shadow: rgb(225, 85, 70) 3px 0px 0px, rgb(225, 85, 70) 2.83487px 0.981584px 0px, rgb(225, 85, 70) 2.35766px 1.85511px 0px, rgb(225, 85, 70) 1.62091px 2.52441px 0px, rgb(225, 85, 70) 0.705713px 2.91581px 0px, rgb(225, 85, 70) -0.287171px 2.98622px 0px, rgb(225, 85, 70) -1.24844px 2.72789px 0px, rgb(225, 85, 70) -2.07227px 2.16926px 0px, rgb(225, 85, 70) -2.66798px 1.37182px 0px, rgb(225, 85, 70) -2.96998px 0.42336px 0px, rgb(225, 85, 70) -2.94502px -0.571704px 0px, rgb(225, 85, 70) -2.59586px -1.50383px 0px, rgb(225, 85, 70) -1.96093px -2.27041px 0px, rgb(225, 85, 70) -1.11013px -2.78704px 0px, rgb(225, 85, 70) -0.137119px -2.99686px 0px, rgb(225, 85, 70) 0.850987px -2.87677px 0px, rgb(225, 85, 70) 1.74541px -2.43999px 0px, rgb(225, 85, 70) 2.44769px -1.73459px 0px, rgb(225, 85, 70) 2.88051px -0.838247px 0px,
+        /* shadow */
+        6px 6px 0px rgba(191, 30, 46, 0.24);
+}
+
+/* #container */
+#container {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fef2de+0,f8c3bc+50,fef2de+100 */
+    background: rgb(254, 242, 222);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(254, 242, 222, 1) 0%, rgba(248, 195, 188, 1) 50%, rgba(254, 242, 222, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(254, 242, 222, 1) 0%, rgba(248, 195, 188, 1) 50%, rgba(254, 242, 222, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(254, 242, 222, 1) 0%, rgba(248, 195, 188, 1) 50%, rgba(254, 242, 222, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fef2de', endColorstr='#fef2de', GradientType=0);
+    /* IE6-9 */
+}
+
+/* .custom_sector #custom_completion */
+#custom_completion {
+    width: 300px;
+    height: 300px;
+
+    top: 52vh;
+    left: 28vw;
+    z-index: 9999;
+    transform: translateX(-50%);
+    transition: all 0.3s;
+}
+
+/* .custom_sector .custom_sec_inner */
+.custom_sec_inner {
+    text-align: center;
+
+    top: 45%;
+    right: 0%;
+    transform: translateY(-50%);
+}
+
+.custom_sec_base,
+.custom_sec_cream,
+.custom_sec_topping {
+    margin-top: 176px;
+    height: 100vh;
+}
+
+.custom_sec_topping {
+    padding-bottom: 330px;
+}
+
+.custom_title {
+    padding-bottom: 60px;
+}
+
+.option_bottom {
+    display: flex;
+    justify-content: right;
+    align-items: end;
+}
+
+.option_bot_btn {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+    padding-top: 60px;
+}
+
+.option_bot_btn input {
+    width: 50px;
+    padding-right: 30px;
+}
+
+.caution {
+    font-size: 14px;
+
+    /* stroke */
+    text-shadow: rgb(254, 242, 222) 3px 0px 0px, rgb(254, 242, 222) 2.83487px 0.981584px 0px, rgb(254, 242, 222) 2.35766px 1.85511px 0px, rgb(254, 242, 222) 1.62091px 2.52441px 0px, rgb(254, 242, 222) 0.705713px 2.91581px 0px, rgb(254, 242, 222) -0.287171px 2.98622px 0px, rgb(254, 242, 222) -1.24844px 2.72789px 0px, rgb(254, 242, 222) -2.07227px 2.16926px 0px, rgb(254, 242, 222) -2.66798px 1.37182px 0px, rgb(254, 242, 222) -2.96998px 0.42336px 0px, rgb(254, 242, 222) -2.94502px -0.571704px 0px, rgb(254, 242, 222) -2.59586px -1.50383px 0px, rgb(254, 242, 222) -1.96093px -2.27041px 0px, rgb(254, 242, 222) -1.11013px -2.78704px 0px, rgb(254, 242, 222) -0.137119px -2.99686px 0px, rgb(254, 242, 222) 0.850987px -2.87677px 0px, rgb(254, 242, 222) 1.74541px -2.43999px 0px, rgb(254, 242, 222) 2.44769px -1.73459px 0px, rgb(254, 242, 222) 2.88051px -0.838247px 0px,
+        /* shadow */
+        6px 6px 0px rgba(191, 30, 46, 0.24);
+}
+
+/* .custom_sector .custom_sec_inner BASE */
+.custom_option_base {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+}
+
+/* .custom_sector .custom_sec_inner CREAM & TOPPING */
+.custom_cream_box,
+.custom_topping_box {
+    width: 800px;
+}
+
+.custom_option_cream,
+.custom_option_topping {
+    display: flex;
+    justify-content: left;
+}
+
+.custom_option_cream:last-of-type,
+.custom_option_topping:last-of-type {
+    justify-content: right;
+    margin-top: 50px;
+}
+
+.custom_cream_box li,
+.custom_topping_box li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-right: 50px;
+}
+
+.custom_option_cream:last-of-type li,
+.custom_option_topping:last-of-type li {
+    padding: 0px;
+    padding-left: 50px;
+}
+
+/* .result_popup */
+.result_popup {
+    display: none;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+
+    /* margin-top: 176px; */
+    width: 100%;
+    height: 100vh;
+    background: rgba(249, 196, 189, 0.7);
+
+    top: 50%;
+    left: 50%;
+    z-index: 9999999;
+    transform: translate(-50%, -50%);
+}
+
+.popup_inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+
+    height: 95vh;
+    background: #ffd5c8;
+    border-radius: 50px;
+}
+
+.popup_top,
+.popup_bot {
+    width: 100%;
+    height: 200px;
+    background: #fff0d7;
+}
+
+.popup_top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.popup_top>p {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.popup_top>h1 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #30130f;
+
+    padding: 30px 0px;
+}
+
+.popup_top>h1>span {
+    font-size: 36px;
+    font-weight: 900;
+    color: #e65e4f;
+}
+
+.popup_top>h2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.popup_top>h2>span {
+    color: #bf1e2e;
+}
+
+.popup_mid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 600px;
+}
+
+.popup_mid .result_bg>img {
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+}
+
+.popup_mid .result_cupcake {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 300px;
+    height: 300px;
+}
+
+.popup_bot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup_bot .popup_bot_inner {
+    display: flex;
+    justify-content: space-between;
+
+    width: 50%;
+}
