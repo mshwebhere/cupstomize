@@ -10,6 +10,10 @@
     ——Cherry: #bf1e2e
 */
 
+#container {
+    overflow: hidden;
+}
+
 .title .icon {
     filter: invert(59%) sepia(49%) saturate(502%) hue-rotate(329deg) brightness(93%) contrast(90%);
 
